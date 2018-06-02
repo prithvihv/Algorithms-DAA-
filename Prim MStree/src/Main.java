@@ -1,8 +1,6 @@
 import java.util.Scanner;
 
 public class Main {
-
-
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.println("Enter Size of the cost Matrix");
@@ -17,7 +15,6 @@ public class Main {
                 }
             }
         }
-
         int a=0;
         int b=0;
         int ne=1;
@@ -41,7 +38,7 @@ public class Main {
             if(!visited[a]||!visited[b]){
                 ne++;
                 visited[b]=true;
-                mincost=mincost+ cost[a][b];
+                mincost=mincost + cost[a][b];
             }
             cost[a][b]= cost[a][b]= 999;
         }

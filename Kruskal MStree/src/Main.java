@@ -57,5 +57,4 @@ public class Main {
     static void union(int i,int j){
         parent[i]=parent[j];
     }
-
 }
