@@ -48,7 +48,6 @@
                  System.out.println("min path to "+ i +" is : " + shortestpath[i]);
              }
          }
-
      }
      public static int getminimun(int[] v,int[] shortestpath){
          int min=9999;
